@@ -1,0 +1,12 @@
+Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+US East (N. Virginia),vpc-components,Network Address Translation (NAT) Gateway,0,482.85,5794.2,USD,Number of NAT Gateways (1)
+US East (N. Virginia),elastic-load-balancers,Application Load Balancer,0,1200.85,14410.2,USD,Number of Application Load Balancers (2)
+US East (N. Virginia),cloudFront,Amazon CloudFront,0,115,1380,USD,"Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Number of requests (HTTPS) (10000000 per month), Number of requests (HTTPS) ( per month)"
+US East (N. Virginia),database,Amazon Aurora PostgreSQL-Compatible DB,0,2556.384,30676.61,USD,"Quantity (2), Instance type (db.r6g.4xlarge), Pricing strategy (Reserved 1yr No Upfront), Storage amount (2000 GB), Additional backup storage (1000 GB)"
+US East (N. Virginia),web-and-app-servers,Amazon EC2,0,1710.43,20525.16,USD,"Operating system (Linux), Quantity (6), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (m6g.4xlarge)"
+US East (N. Virginia),bucket,S3 Standard,0,169,2028,USD,S3 Standard storage (5000 GB per month)
+US East (N. Virginia),total,Total,0,6234.514,74814.17,USD,Total
+,,,,,,,
+,,,,,,,
+US East (N. Virginia),Changes,Change 1,,,,USD,1- Reduced to 6 instead of 10 the number of EC2 instances(2 for web servers and 4 for application servers)
+,Changes,Change 2 ,,,,USD,2- Downgraded RDS instance type

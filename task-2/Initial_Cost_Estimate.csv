@@ -1,0 +1,11 @@
+Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+US East (N. Virginia),vpc-components,Network Address Translation (NAT) Gateway,0,482.85,5794.2,USD,Number of NAT Gateways (1)
+US East (N. Virginia),elastic-load-balancers,Application Load Balancer,0,1200.85,14410.2,USD,Number of Application Load Balancers (2)
+US East (N. Virginia),cloudFront,Amazon CloudFront,0,115,1380,USD,"Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Number of requests (HTTPS) (10000000 per month), Number of requests (HTTPS) ( per month)"
+US East (N. Virginia),database,Amazon Aurora PostgreSQL-Compatible DB,0,4542.568,54510.82,USD,"Quantity (2), Instance type (db.r6g.8xlarge), Pricing strategy (Reserved 1yr No Upfront), Storage amount (2000 GB), Additional backup storage (1000 GB)"
+US East (N. Virginia),web-and-app-servers,Amazon EC2,0,2850.72,34208.64,USD,"Operating system (Linux), Quantity (10), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (m6g.4xlarge)"
+US East (N. Virginia),bucket,S3 Standard,0,169,2028,USD,S3 Standard storage (5000 GB per month)
+US East (N. Virginia),total,total,0,9360.988,112331.86,USD,Total
+,,,,,,,
+US East (N. Virginia),Notes,Note 1,,,,,1 – 10 ec2 instances (2 web servers and 8 application servers)
+,,Note 2,,,,,2 – rds database shloud be large enough to handle traffic

@@ -1,0 +1,12 @@
+s,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+US East (N. Virginia),vpc-components,Network Address Translation (NAT) Gateway,0,965.7,11588.4,USD,Number of NAT Gateways (2)
+US East (N. Virginia),elastic-load-balancers,Application Load Balancer,0,1200.85,14410.2,USD,Number of Application Load Balancers (2)
+US East (N. Virginia),cloudFront,Amazon CloudFront,0,115,1380,USD,"Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Number of requests (HTTPS) (10000000 per month), Number of requests (HTTPS) ( per month)"
+US East (N. Virginia),database,Amazon Aurora PostgreSQL-Compatible DB,0,8514.936,102179.23,USD,"Quantity (4), Instance type (db.r6g.8xlarge), Pricing strategy (Reserved 1yr No Upfront), Storage amount (2000 GB), Additional backup storage (1000 GB)"
+US East (N. Virginia),web-and-app-servers,Amazon EC2,0,8552.16,102625.92,USD,"Operating system (Linux), Quantity (30), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (m6g.4xlarge)"
+US East (N. Virginia),bucket,S3 Standard,0,169,2028,USD,S3 Standard storage (5000 GB per month)
+US East (N. Virginia),total,Total,0,19517.646,234211.75,USD,Total
+,,,,,,,
+US East (N. Virginia),Changes,Change 1,,,,,1- Increased the total number of ec2 to 30 to support larger load (6 web servers and 24 app servers)
+,,Change 2,,,,,2- Added 2 more read replicas database
+,,Change 3,,,,,3- Added a second NAT - one per AZ – which handle complete AZ failure
