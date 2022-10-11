@@ -1,1 +1,10 @@
 /.idea/
+/Exercise_1/.terraform.lock.hcl
+/Exercise_1/terraform.tfstate
+/Exercise_1/terraform.tfstate.backup
+/Exercise_1/.terraform/
+/Exercise_2/.terraform/
+/Exercise_2/.terraform.lock.hcl
+/Exercise_2/greet.zip
+/Exercise_2/terraform.tfstate
+/Exercise_2/terraform.tfstate.backup
