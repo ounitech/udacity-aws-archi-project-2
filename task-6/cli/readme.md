@@ -1,0 +1,1 @@
+this folder contains screenshots of terraform cli commands in action
